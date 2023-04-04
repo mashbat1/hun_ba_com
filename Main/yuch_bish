@@ -1,0 +1,66 @@
+html
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+
+    <script src="java.js"></script>
+    <title>HIPET</title>
+  </head>
+  <body>
+    <!-- <div class="container">
+                <div class="header">
+                    <H1>HIPET</H1>
+                </div>
+                <div class="menu">
+                      <ul class="nav">
+                        <li><a href="#">Үрчлэх</a></li>
+                        <li><a href="#">Үрчлүүлэх</a></li>
+                        <li><a href="#">Амьтан хайх</a></li>
+                        <li><a href="#">Нэвтрэх/Бүртгүүлэх</a></li>
+                      </ul>
+                </div> -->
+  </body>
+</html>
+
+
+
+css
+
+/* 
+.container{
+    background: bisque;
+    text-align: center;
+    padding-top: 0.1cm;
+    height: 100%;
+    width: 100%;
+}
+ul.nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin:0;
+    padding:0;
+    list-style:none;
+    height:36px; line-height:36px;
+    background:#eaedec; 
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:13px;
+    width: 100%;
+}
+ul.nav a {
+    display:block;
+    padding:0 28px;
+    color:#050405;
+    text-decoration:none;
+    text-align: center;
+}
+ul.nav a:hover,
+ul.nav li.current a {
+    background:beige;
+} */
+/* haij bui amitad */

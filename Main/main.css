@@ -1,0 +1,250 @@
+/* menuitem */
+.container{
+    background: bisque;
+    text-align: center;
+    padding-top: 0.1cm;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.scroll{
+    overflow: scroll;
+}
+.name{
+
+    text-align: center;
+}
+ul.nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin:0;
+    padding:0;
+    list-style:none;
+    height:50px; line-height:36px;
+    background:#eaedec; 
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;
+    width: 100%;
+}
+ul.nav a {
+    margin-top: 10px;
+    display:block;
+    padding:0 28px;
+    color:#050405;
+    text-decoration:none;
+    text-align: center;
+}
+ul.nav a:hover,
+ul.nav li.current a {
+    background:beige;
+}
+/* swipe slide */
+* {
+  box-sizing: border-box
+}
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0
+}
+.mySlides {
+  display: none
+}
+img {
+  vertical-align: middle;
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  background: white;
+}
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: rgb(9, 8, 8);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/* Position the "next button" to the right */
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #999999;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active,
+.dot:hover {
+  background-color: #111111;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {
+    opacity: .4
+  }
+  to {
+    opacity: 1
+  }
+}
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+  to {
+    opacity: 1
+  }
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 11px
+  }
+}
+
+
+
+/* section3 */
+
+.name1{
+    text-align: center;
+}
+.nav1{
+    list-style: none;
+}
+ul.nav1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin:0;
+    padding:0;
+    list-style:none;
+    height:50px; line-height:36px;
+    font-size:13px;
+    width: 100%;
+}
+.a1 {
+    margin-top: 10px;
+    display:block;
+    padding:0 28px;
+    color:#050405;
+    text-decoration:none;
+    text-align: center;
+    background-color:#fff;
+    border:1px solid orange;    
+    height:150px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:150px;
+    display: block;
+    list-style: none;
+}
+.a2 {
+    margin-top: 10px;
+    display:block;
+    padding:0 28px;
+    color:#050405;
+    text-decoration:none;
+    text-align: center;
+    background-color:#fff;
+    border:1px solid blue;    
+    height:150px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:150px;
+    display: block;
+    list-style: none;
+}
+.a3 {
+    margin-top: 10px;
+    display:block;
+    padding:0 28px;
+    color:#050405;
+    text-decoration:none;
+    text-align: center;
+    background-color:#fff;
+    border:1px solid green;    
+    height:150px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:150px;
+    display: block;
+    list-style: none;
+}
+.a4 {
+    margin-top: 10px;
+    display:block;
+    padding:0 28px;
+    color:#050405;
+    text-decoration:none;
+    text-align: center;
+    background-color:#fff;
+    border:1px solid yellow;    
+    height:150px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:150px;
+    display: block;
+    list-style: none;
+}
+ul.nav1 a:hover,
+ul.nav1 li.current a {
+    background:beige;
+}
+
+
+/* section 4 */
+/* Split the screen in half */
+
+/* .split{
+    background: beige;
+    border-radius: 20px;
+}
+.img{
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+}
+.slice{
+    margin-top: 0.2cm;
+    display: inline-block;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+} */
