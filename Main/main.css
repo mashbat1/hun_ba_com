@@ -1,17 +1,14 @@
 /* menuitem */
 .container{
-    background: bisque;
+    background: #A32CDB;
     text-align: center;
     padding-top: 0.1cm;
     height: 100%;
     width: 100%;
     position: relative;
-}
-.scroll{
-    overflow: scroll;
+    /* position: fixed; */
 }
 .name{
-
     text-align: center;
 }
 ul.nav {
@@ -21,7 +18,7 @@ ul.nav {
     padding:0;
     list-style:none;
     height:50px; line-height:36px;
-    background:#eaedec; 
+    background:#E4CCFF; 
     font-family:Arial, Helvetica, sans-serif;
     font-size:20px;
     width: 100%;
@@ -53,10 +50,12 @@ img {
   vertical-align: middle;
 }
 .slideshow-container {
-  max-width: 1000px;
+  /* max-width: 1000px; */
+  width: 100%;
   position: relative;
   margin: auto;
   background: white;
+  text-align: center;
 }
 /* Next & previous buttons */
 .prev,
@@ -67,7 +66,7 @@ img {
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color: rgb(9, 8, 8);
+  color: rgb(8, 9, 9);
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -144,6 +143,9 @@ img {
 }
 .nav1{
     list-style: none;
+}
+.im{
+  text-align: center;
 }
 ul.nav1 {
     display: flex;
@@ -232,7 +234,7 @@ ul.nav1 li.current a {
 /* section 4 */
 /* Split the screen in half */
 
-/* .split{
+.split{
     background: beige;
     border-radius: 20px;
 }
@@ -242,9 +244,9 @@ ul.nav1 li.current a {
     width: 250px;
 }
 .slice{
-    margin-top: 0.2cm;
+    margin-top: 4.2cm;
     display: inline-block;
     border: 1px solid;
     padding: 10px;
     box-shadow: 5px 10px;
-} */
+}
